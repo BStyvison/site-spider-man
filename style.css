@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -53,8 +53,84 @@ header ul li a:hover{
     color: white;
 }
 
+.banner .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.banner .content .contentBox {
+    text-align: center;
+}
+
+.banner .content .contentBox img{
+    width: 100%;
+}
+
+.banner .content .contentBox p{
+    font-size: 1.2em;
+    color: white;
+    font-weight: 300;
+}
+
+.banner .content .contentBox .btn{
+    display: inline-block;
+    font-size: 1.1em;
+    color: #333;
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.4s
+}
+
+.banner .content .contentBox .btn:hover{
+    letter-spacing: 2px;
+}
+
+.sci {
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
 
 
-/* .banner .box:nth-child(2) {
-    background-color: #f0f;
-} */
+.sci h3 {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 1px;
+}
+
+.sci li{
+    list-style: none;
+
+}
+
+.sci li img{
+    max-width: 30px;
+}
+
+.banner .imagens{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner .imagens .imgBx{
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    background: yellow;
+
+}
+
+.banner .imagens .imgBx:nth-child(3){
+    
+}
