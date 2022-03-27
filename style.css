@@ -131,6 +131,52 @@ header ul li a:hover{
 
 }
 
+.banner .imagens .imgBx:nth-child(2){
+    background-color: red;
+}
+
 .banner .imagens .imgBx:nth-child(3){
-    
+    width: 100%;
+    background-color: aqua;
+}
+
+
+.banner .imagens .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Resposive*/
+
+@media (max-width: 991px)
+{
+    .banner
+    {
+        grid-template-columns: 1fr;
+    }
+    header
+    {
+        padding: 20px 40px;
+    }
+    .banner .content
+    {
+        padding: 40px;
+        height: 70vh;
+    }
+    .sci
+    {
+        right: 40px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .banner .imagens .imgBx
+    {
+        width: 100%;
+    }
 }
